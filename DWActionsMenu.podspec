@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DWActionsMenu"
-  s.version      = "1.0.0"
-  s.summary      = ""
+  s.version      = "1.0.1"
+  s.summary      = "Slideable and Resizeable Menu Bar for ios 7.1+ and ios 8"
 
   s.description  = <<-DESC
                    DWActionsMenu provides a artistically designed, simple-to-use menu bar that allows user to slide through all actions available and resize it to reveal partial or entire list of actions available. Currently, it only supports bottom menu bar. In next version, it will support all four directions.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/oasisweng/DWActionsMenu"
-  # s.screenshots  = "postimg.org/image/oih2cov6h/", "postimg.org/image/6mxj44c2t/"
+  s.screenshots  = "postimg.org/image/oih2cov6h/", "postimg.org/image/6mxj44c2t/"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/oasisweng/DWActionsMenu.git", :commit => "b83df0b7fd47e83fb7699bb1e478b4823ea934ec" }
+  s.source       = { :git => "https://github.com/oasisweng/DWActionsMenu.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
