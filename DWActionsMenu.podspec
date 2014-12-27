@@ -16,20 +16,16 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DWActionsMenu"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = ""
 
   s.description  = <<-DESC
-                   A longer description of DWActionsMenu in Markdown format.
+                   DWActionsMenu provides a artistically designed, simple-to-use menu bar that allows user to slide through all actions available and resize it to reveal partial or entire list of actions available. Currently, it only supports bottom menu bar. In next version, it will support all four directions.
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
   s.homepage     = "https://github.com/oasisweng/DWActionsMenu"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  # s.screenshots  = "postimg.org/image/oih2cov6h/", "postimg.org/image/6mxj44c2t/"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,8 +35,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,11 +60,11 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios
+  #s.platform     = :ios, "7.1"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "7.1"
   # s.osx.deployment_target = "10.7"
 
 
