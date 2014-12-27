@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2006ACDD1A4EAB5400F02DD8 /* ViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006ACDC1A4EAB5400F02DD8 /* ViewX.swift */; };
 		2006ACE11A4EE18300F02DD8 /* DWAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006ACE01A4EE18300F02DD8 /* DWAction.swift */; };
 		201F52D11A4B480700720BAE /* DWActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F52D01A4B480700720BAE /* DWActionButton.swift */; };
 		201F52D31A4B483B00720BAE /* DWGridPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F52D21A4B483B00720BAE /* DWGridPath.swift */; };
@@ -33,7 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2006ACDC1A4EAB5400F02DD8 /* ViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewX.swift; sourceTree = "<group>"; };
 		2006ACE01A4EE18300F02DD8 /* DWAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWAction.swift; sourceTree = "<group>"; };
 		201F52D01A4B480700720BAE /* DWActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWActionButton.swift; sourceTree = "<group>"; };
 		201F52D21A4B483B00720BAE /* DWGridPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWGridPath.swift; sourceTree = "<group>"; };
@@ -70,14 +68,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2006ACDE1A4EAD4B00F02DD8 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				2006ACDC1A4EAB5400F02DD8 /* ViewX.swift */,
-			);
-			name = Test;
-			sourceTree = "<group>";
-		};
 		2006ACDF1A4EAD5700F02DD8 /* DWActionsMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +114,6 @@
 			children = (
 				2006ACE21A4EED4400F02DD8 /* Example */,
 				2006ACDF1A4EAD5700F02DD8 /* DWActionsMenu */,
-				2006ACDE1A4EAD4B00F02DD8 /* Test */,
 				209D12251A4B1D9600AC08DD /* Images.xcassets */,
 				209D12271A4B1D9600AC08DD /* LaunchScreen.xib */,
 				209D121C1A4B1D9600AC08DD /* Supporting Files */,
@@ -259,7 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				201F52D11A4B480700720BAE /* DWActionButton.swift in Sources */,
-				2006ACDD1A4EAB5400F02DD8 /* ViewX.swift in Sources */,
 				201F52D31A4B483B00720BAE /* DWGridPath.swift in Sources */,
 				201F52D51A4B4C4000720BAE /* DWActionsMenu.swift in Sources */,
 				2006ACE11A4EE18300F02DD8 /* DWAction.swift in Sources */,
