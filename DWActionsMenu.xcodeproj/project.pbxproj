@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2006ACDD1A4EAB5400F02DD8 /* ViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006ACDC1A4EAB5400F02DD8 /* ViewX.swift */; };
+		2006ACE11A4EE18300F02DD8 /* DWAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006ACE01A4EE18300F02DD8 /* DWAction.swift */; };
+		201F52D11A4B480700720BAE /* DWActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F52D01A4B480700720BAE /* DWActionButton.swift */; };
+		201F52D31A4B483B00720BAE /* DWGridPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F52D21A4B483B00720BAE /* DWGridPath.swift */; };
+		201F52D51A4B4C4000720BAE /* DWActionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F52D41A4B4C4000720BAE /* DWActionsMenu.swift */; };
+		201F52D71A4B4C5200720BAE /* DWResizeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F52D61A4B4C5200720BAE /* DWResizeControl.swift */; };
+		201F52D91A4B4D6500720BAE /* ActionsMenuConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F52D81A4B4D6500720BAE /* ActionsMenuConstants.swift */; };
 		209D121F1A4B1D9600AC08DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D121E1A4B1D9600AC08DD /* AppDelegate.swift */; };
 		209D12211A4B1D9600AC08DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D12201A4B1D9600AC08DD /* ViewController.swift */; };
 		209D12241A4B1D9600AC08DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209D12221A4B1D9600AC08DD /* Main.storyboard */; };
@@ -26,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2006ACDC1A4EAB5400F02DD8 /* ViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewX.swift; sourceTree = "<group>"; };
+		2006ACE01A4EE18300F02DD8 /* DWAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWAction.swift; sourceTree = "<group>"; };
+		201F52D01A4B480700720BAE /* DWActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWActionButton.swift; sourceTree = "<group>"; };
+		201F52D21A4B483B00720BAE /* DWGridPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWGridPath.swift; sourceTree = "<group>"; };
+		201F52D41A4B4C4000720BAE /* DWActionsMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWActionsMenu.swift; sourceTree = "<group>"; };
+		201F52D61A4B4C5200720BAE /* DWResizeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWResizeControl.swift; sourceTree = "<group>"; };
+		201F52D81A4B4D6500720BAE /* ActionsMenuConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionsMenuConstants.swift; path = ../ActionsMenuConstants.swift; sourceTree = "<group>"; };
 		209D12191A4B1D9600AC08DD /* DWActionsMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWActionsMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209D121D1A4B1D9600AC08DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		209D121E1A4B1D9600AC08DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2006ACDE1A4EAD4B00F02DD8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2006ACDC1A4EAB5400F02DD8 /* ViewX.swift */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		2006ACDF1A4EAD5700F02DD8 /* DWActionsMenu */ = {
+			isa = PBXGroup;
+			children = (
+				201F52D41A4B4C4000720BAE /* DWActionsMenu.swift */,
+				2006ACE01A4EE18300F02DD8 /* DWAction.swift */,
+				201F52D01A4B480700720BAE /* DWActionButton.swift */,
+				201F52D61A4B4C5200720BAE /* DWResizeControl.swift */,
+				201F52D21A4B483B00720BAE /* DWGridPath.swift */,
+				201F52D81A4B4D6500720BAE /* ActionsMenuConstants.swift */,
+			);
+			name = DWActionsMenu;
+			sourceTree = "<group>";
+		};
+		2006ACE21A4EED4400F02DD8 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				209D121E1A4B1D9600AC08DD /* AppDelegate.swift */,
+				209D12201A4B1D9600AC08DD /* ViewController.swift */,
+				209D12221A4B1D9600AC08DD /* Main.storyboard */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
 		209D12101A4B1D9600AC08DD = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +122,9 @@
 		209D121B1A4B1D9600AC08DD /* DWActionsMenu */ = {
 			isa = PBXGroup;
 			children = (
-				209D121E1A4B1D9600AC08DD /* AppDelegate.swift */,
-				209D12201A4B1D9600AC08DD /* ViewController.swift */,
-				209D12221A4B1D9600AC08DD /* Main.storyboard */,
+				2006ACE21A4EED4400F02DD8 /* Example */,
+				2006ACDF1A4EAD5700F02DD8 /* DWActionsMenu */,
+				2006ACDE1A4EAD4B00F02DD8 /* Test */,
 				209D12251A4B1D9600AC08DD /* Images.xcassets */,
 				209D12271A4B1D9600AC08DD /* LaunchScreen.xib */,
 				209D121C1A4B1D9600AC08DD /* Supporting Files */,
@@ -161,6 +206,7 @@
 				TargetAttributes = {
 					209D12181A4B1D9600AC08DD = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4Y685976N4;
 					};
 					209D122D1A4B1D9600AC08DD = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -212,8 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201F52D11A4B480700720BAE /* DWActionButton.swift in Sources */,
+				2006ACDD1A4EAB5400F02DD8 /* ViewX.swift in Sources */,
+				201F52D31A4B483B00720BAE /* DWGridPath.swift in Sources */,
+				201F52D51A4B4C4000720BAE /* DWActionsMenu.swift in Sources */,
+				2006ACE11A4EE18300F02DD8 /* DWAction.swift in Sources */,
 				209D12211A4B1D9600AC08DD /* ViewController.swift in Sources */,
 				209D121F1A4B1D9600AC08DD /* AppDelegate.swift in Sources */,
+				201F52D71A4B4C5200720BAE /* DWResizeControl.swift in Sources */,
+				201F52D91A4B4D6500720BAE /* ActionsMenuConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DWActionsMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DWActionsMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +462,7 @@
 				209D123A1A4B1D9600AC08DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		209D123B1A4B1D9600AC08DD /* Build configuration list for PBXNativeTarget "DWActionsMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +471,7 @@
 				209D123D1A4B1D9600AC08DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
