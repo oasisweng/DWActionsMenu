@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/oasisweng/DWActionsMenu"
-  s.screenshots  = "postimg.org/image/oih2cov6h/", "postimg.org/image/6mxj44c2t/"
+  s.screenshots  = "http://s28.postimg.org/wnz4aujff/image.png", "http://s2.postimg.org/syvbxib6v/image.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = 'DWActionsMenu/ActionsMenuConstants.swift','DWActionsMenu/*'
+  #s.exclude_files = ""
 
-  # s.public_header_files = "Classes/**/*.h"
+  #s.public_header_files = "DWActionsMenu/DWActionsMenu"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -111,7 +111,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"

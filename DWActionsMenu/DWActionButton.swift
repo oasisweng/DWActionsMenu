@@ -11,6 +11,7 @@ import Foundation
 
 
 class DWActionButton: UIButton{
+    let C = Constants()
     var action : DWAction{
         get {
             if (_action == nil){
@@ -41,7 +42,7 @@ class DWActionButton: UIButton{
     
     init(frame:CGRect,gridPath:DWGridPath,target:AnyObject?,action:DWAction){
         super.init(frame: frame)
-        self.contentEdgeInsets = UIEdgeInsetsMake(Constants.kBUTTONINSET,Constants.kBUTTONINSET,Constants.kBUTTONINSET,Constants.kBUTTONINSET)
+        self.contentEdgeInsets = UIEdgeInsetsMake(C.kBUTTONINSET,C.kBUTTONINSET,C.kBUTTONINSET,C.kBUTTONINSET)
         _gridPath = gridPath
         _action = action
         self.target = target
@@ -87,7 +88,7 @@ class DWActionButton: UIButton{
         //add image
         if let imageNamed = action.imageNamed{
             if (actionImageView == nil){
-                actionImageView = UIImageView(frame: CGRectMake(Constants.kBUTTONINSET,Constants.kBUTTONINSET, Constants.kBUTTONIMAGESIZE, Constants.kBUTTONIMAGESIZE))
+                actionImageView = UIImageView(frame: CGRectMake(C.kBUTTONINSET,C.kBUTTONINSET, C.kBUTTONIMAGESIZE, C.kBUTTONIMAGESIZE))
                 actionImageView!.contentMode = UIViewContentMode.Center;
                 self.addSubview(actionImageView!)
             }

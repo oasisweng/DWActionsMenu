@@ -17,10 +17,11 @@ protocol DWResizeControlDelegate {
 
 class DWResizeControl: UIView {
     let kIndicatorSize = CGSizeMake(32, 2)
+    let C = Constants()
     
     var delegate:DWResizeControlDelegate?
     init(parentView: UIView) {
-        super.init(frame: CGRectMake(0, 0, parentView.frame.size.width, Constants.kRESIZECONTROLHEIGHT))
+        super.init(frame: CGRectMake(0, 0, parentView.frame.size.width, C.kRESIZECONTROLHEIGHT))
         //handle dragging, but only move vertically
         var panGesture = UIPanGestureRecognizer(target: self, action: "handlePan:")
         self.addGestureRecognizer(panGesture)
@@ -51,7 +52,7 @@ class DWResizeControl: UIView {
         super.drawRect(dirtyRect)
         println("drawRect Resize Control bound \(bounds)")
         var center = CGPointMake(bounds.size.width/2, bounds.size.height/2)
-        var origin = CGPointMake(center.x-kIndicatorSize.width/2, (Constants.kRESIZECONTROLHEIGHT-kIndicatorSize.height)/2)
+        var origin = CGPointMake(center.x-kIndicatorSize.width/2, (C.kRESIZECONTROLHEIGHT-kIndicatorSize.height)/2)
         var path = UIBezierPath()
         path.moveToPoint(origin)
         path.addLineToPoint(CGPointMake(origin.x+kIndicatorSize.width,origin.y))

@@ -37,7 +37,7 @@
 		201F52D21A4B483B00720BAE /* DWGridPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWGridPath.swift; sourceTree = "<group>"; };
 		201F52D41A4B4C4000720BAE /* DWActionsMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWActionsMenu.swift; sourceTree = "<group>"; };
 		201F52D61A4B4C5200720BAE /* DWResizeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWResizeControl.swift; sourceTree = "<group>"; };
-		201F52D81A4B4D6500720BAE /* ActionsMenuConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionsMenuConstants.swift; path = ../ActionsMenuConstants.swift; sourceTree = "<group>"; };
+		201F52D81A4B4D6500720BAE /* ActionsMenuConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsMenuConstants.swift; sourceTree = "<group>"; };
 		209D12191A4B1D9600AC08DD /* DWActionsMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWActionsMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209D121D1A4B1D9600AC08DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		209D121E1A4B1D9600AC08DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -247,14 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201F52D91A4B4D6500720BAE /* ActionsMenuConstants.swift in Sources */,
+				201F52D51A4B4C4000720BAE /* DWActionsMenu.swift in Sources */,
 				201F52D11A4B480700720BAE /* DWActionButton.swift in Sources */,
 				201F52D31A4B483B00720BAE /* DWGridPath.swift in Sources */,
-				201F52D51A4B4C4000720BAE /* DWActionsMenu.swift in Sources */,
 				2006ACE11A4EE18300F02DD8 /* DWAction.swift in Sources */,
 				209D12211A4B1D9600AC08DD /* ViewController.swift in Sources */,
 				209D121F1A4B1D9600AC08DD /* AppDelegate.swift in Sources */,
 				201F52D71A4B4C5200720BAE /* DWResizeControl.swift in Sources */,
-				201F52D91A4B4D6500720BAE /* ActionsMenuConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
