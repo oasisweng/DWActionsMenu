@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DWActionsMenu"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Slideable and Resizeable Menu Bar for ios 7.1+ and ios 8"
 
   s.description  = <<-DESC
